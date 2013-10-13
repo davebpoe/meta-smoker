@@ -1,0 +1,13 @@
+Index: git/include/configs/am335x_evm.h
+===================================================================
+--- git.orig/include/configs/am335x_evm.h	2013-10-04 19:09:13.352348580 -0600
++++ git/include/configs/am335x_evm.h	2013-10-05 09:46:34.951722738 -0600
+@@ -82,7 +82,7 @@
+ 	"nfsopts=nolock\0" \
+ 	"static_ip=${ipaddr}:${serverip}:${gatewayip}:${netmask}:${hostname}" \
+ 		"::off\0" \
+-	"ramroot=/dev/ram0 rw ramdisk_size=65536 initrd=${rdaddr},64M\0" \
++	"ramroot=/dev/DRAGON rw ramdisk_size=65536 initrd=${rdaddr},64M\0" \
+ 	"ramrootfstype=ext2\0" \
+ 	"mmcargs=setenv bootargs console=${console} " \
+ 		"${optargs} " \
