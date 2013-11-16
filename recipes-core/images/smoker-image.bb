@@ -5,6 +5,7 @@ DEPENDS += "packagegroup-base-extended \
 	   "
 
 IMAGE_INSTALL += "packagegroup-base-extended \
+                  libpcre \
                   lighttpd \
 	    "
 
